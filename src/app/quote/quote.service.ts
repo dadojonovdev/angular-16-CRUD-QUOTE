@@ -24,7 +24,7 @@ export class QuoteService {
     return this.http.post(baseUrl, data);
   }
 
-  updateQuote(id: number, data: Quote): Observable<Quote>{
+  update(id: number, data: Quote): Observable<Quote>{
     return this.http.put(`${baseUrl}/${id}`, data);
   }
 

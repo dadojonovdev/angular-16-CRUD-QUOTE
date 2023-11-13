@@ -1,5 +1,8 @@
 export class Quote {
-    id?: any;
+    id?: number | string;
     title?: string;
     author?: string;
+    genre?: string;
+    created_at?: string;
+    updated_at?: string;
 }
