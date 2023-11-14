@@ -6,9 +6,9 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { QoutesTableComponent } from './quote/qoutes-table/qoutes-table.component';
-import { QouteDetailsComponent } from './quote/qoute-details/qoute-details.component';
-import { QouteAddComponent } from './quote/qoute-add/qoute-add.component';
+import { QoutesTableComponent } from './features/quote/qoutes-table/qoutes-table.component';
+import { QouteDetailsComponent } from './features/quote/qoute-details/qoute-details.component';
+import { QouteAddComponent } from './features/quote/qoute-add/qoute-add.component';
 import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 

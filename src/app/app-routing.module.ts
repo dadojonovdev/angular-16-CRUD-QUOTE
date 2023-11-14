@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { QoutesTableComponent } from './quote/qoutes-table/qoutes-table.component'
-import { QouteDetailsComponent } from './quote/qoute-details/qoute-details.component'
-import { QouteAddComponent } from './quote/qoute-add/qoute-add.component'
+import { QoutesTableComponent } from './features/quote/qoutes-table/qoutes-table.component'
+import { QouteDetailsComponent } from './features/quote/qoute-details/qoute-details.component'
+import { QouteAddComponent } from './features/quote/qoute-add/qoute-add.component'
 
 const routes: Routes = [
   {path: '', component: QoutesTableComponent},
