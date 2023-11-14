@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
 import { Observable } from 'rxjs';
-import { Quote } from '../model/quote.model';
+import { Quote } from 'src/app/core/models/quote.model';
 
 const baseUrl = 'http://localhost:3000/quotes'
 

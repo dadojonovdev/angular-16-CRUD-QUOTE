@@ -11,6 +11,9 @@ import { QouteDetailsComponent } from './features/quote/qoute-details/qoute-deta
 import { QouteAddComponent } from './features/quote/qoute-add/qoute-add.component';
 import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
+import { GenreTableComponent } from './features/genre/genre-table/genre-table.component';
+import { GenreAddComponent } from './features/genre/genre-add/genre-add.component';
+import { GenreDetailsComponent } from './features/genre/genre-details/genre-details.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +23,9 @@ import { RegisterComponent } from './auth/register/register.component';
     QouteAddComponent,
     LoginComponent,
     RegisterComponent,
+    GenreTableComponent,
+    GenreAddComponent,
+    GenreDetailsComponent,
   ],
   imports: [
     BrowserModule,

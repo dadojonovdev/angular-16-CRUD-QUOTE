@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Quote } from 'src/app/core/models/quote.model';
-import { QuoteService } from '../quote.service';
+import { QuoteService } from '../../../core/services/quote.service';
 
 @Component({
   selector: 'app-qoutes-table',
