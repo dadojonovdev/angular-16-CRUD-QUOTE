@@ -14,6 +14,8 @@ import { RegisterComponent } from './auth/register/register.component';
 import { GenreTableComponent } from './features/genre/genre-table/genre-table.component';
 import { GenreAddComponent } from './features/genre/genre-add/genre-add.component';
 import { GenreDetailsComponent } from './features/genre/genre-details/genre-details.component';
+import { NavbarComponent } from './shared/components/navbar/navbar.component';
+import { TableComponent } from './shared/components/table/table.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { GenreDetailsComponent } from './features/genre/genre-details/genre-deta
     GenreTableComponent,
     GenreAddComponent,
     GenreDetailsComponent,
+    NavbarComponent,
+    TableComponent,
   ],
   imports: [
     BrowserModule,
